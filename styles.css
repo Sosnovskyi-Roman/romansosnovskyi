@@ -1,0 +1,71 @@
+
+.box{
+  background: url(./img/car-mersedes.jpeg);
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  
+}
+.logo-image {
+    position: relative;
+    width: 200px;
+    height:150px;
+    border-radius:50%;
+    height:150px;
+  }
+  
+  #header {
+  width:100%;
+  display:flex;
+  align-items: center;
+  position:fixed;
+  
+  }
+  
+  ul {
+    list-style:none;
+    display:flex;
+    justify-content:space-around;
+  }
+  
+  nav {
+  width:100%;
+  }
+  
+  .sign-up-page {
+    height:550px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+  }
+  
+  .sign-up-form {
+    text-align:center;
+    margin-bottom:25px;
+  }
+  
+  .video-page {
+    height:500px;
+    display:flex;
+    justify-content:center;
+    align-content:center;
+  }
+  
+  .video {
+   text-align:center;
+   width:420px;
+    height:315px;
+  }
+  
+  .criminal-justice {
+    height:600px;
+    background-image: URL("https://blog.ipleaders.in/wp-content/uploads/2019/09/Criminal_1200x600.jpg")
+  }
+  
+  @media only screen and (max-width: 600px) {
+    nav {
+      display:none;
+    }
+  }
+  
+  
